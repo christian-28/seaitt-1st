@@ -1,0 +1,158 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ background-image: url(images/background.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ min-height: 100vh;
+ width: 100% ;
+ background-position: center;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: 400;
+ line-height: 1.5;
+}
+
+.navbar {
+ display: flex;
+ justify-content: space-between;
+ background-color: #fff;
+ height: 3rem;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.seaittlogo {
+ margin-left: 20px;
+ margin-top: 1px;
+ height: 45px;
+ width: 90px;
+ cursor: pointer;
+}
+ 
+.navbar a {
+ text-decoration: none;
+ color: #004aad;
+ font-weight: 700;
+ padding: 1px 10px;
+}
+.navbar ul li {
+ display: inline-block;
+ justify-content: center;
+ align-items: center;
+ margin: 10px 20px 10px 0;
+ font-size: 18px;
+ font-weight: 600;
+}
+
+.navbar ul li a:hover {
+ color: #FFAB91;
+ background-color: #004aad;
+ transition: 0.3s;
+ 
+}
+
+.banner {
+ display:block;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ margin-top: 140px;
+}
+
+h1 {
+ font-size: 2.8rem;
+ font-weight: bold ;
+ padding-bottom: 5px;
+ font-family: 'Poppins', sans-serif;
+}
+
+p {
+ font-size: 14px;
+ font-weight: 400;
+ font-family: 'Poppins', sans-serif;
+}
+
+input, .button {
+ display: inline-block;
+ justify-content: center;
+ align-items: center;
+}
+
+input {
+ margin: auto ;
+ padding: 9px;
+ height: 35px;
+ min-width: 300px;
+ border-radius: 4px;
+ border: #a2a1a1;
+ font-size: 14px;
+ margin-right: 5px;
+}
+
+.button {
+ margin: auto;
+ height: 35px;
+ padding: 9px;
+ position: absolute;
+ background-color: #0d6efd;
+ border-radius: 4px;
+ border: solid 1px #0d6efd;
+ color: rgba(255, 255, 255, 1);
+ font-size: 14px;
+ cursor: pointer;
+ vertical-align: middle;
+}
+
+.searchbar {
+ display: flex;
+ justify-content: center;
+ position: absolute;
+ left: 38%;
+ margin-top: 20px;
+}
+
+.button:hover {
+ background-color: #3b66ab;
+ border: solid 1px #3b66ab;
+ transition: 0.3s;
+}
+
+input:focus {
+ outline: 5px solid rgba(114, 135, 180, 0.316);
+ transition: 0.2s; 
+}
+
+.secondbg {
+ position: relative;
+ top: 24.3rem;
+ width: 100%;
+}
+
+.secondscroll {
+ position: relative;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ color: #fff;
+}
+
+.secondh1 {
+ position: absolute;
+ width: 100%;
+ margin: auto;
+ text-align: center;
+ padding-top: 20px;
+ font-size: 3.5rem;
+ line-height: 1.2;
+}
+
+.secondp {
+ position: absolute;
+ top: 35rem;
+ margin: auto;
+ text-align: center;
+ font-size: 1rem;
+}
+ 

@@ -151,8 +151,8 @@ input:focus {
 .secondp {
  position: absolute;
  top: 35rem;
- margin: auto;
  text-align: center;
- font-size: 1rem;
+ font-size: .9rem;
+ margin: 20px 400px;
 }
  

@@ -261,10 +261,47 @@ footer {
  width: 98.7%
 }
 
-@media (max-width: 1080px){;
-  .p2 {
-      font-size: .9rem;
-      font-weight: lighter;
-      line-height: 1.5;
+@media (max-width: 1080px){
+  * {
+  }
+  .navbar {
+      padding-right: 100px;
+  }
+  body {
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+  }
+  h1 {
+      font-size: 80px;
+  }
+  .searchbar {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      left: 34%;
+      margin-top: 20px;
+    }
+    .secondbg {
+      margin-top: 450px;
+    }
+    .header2 {
+      font-size: 2.5rem;
+      margin-top: 60px;
+    }
+    .p2 {
+      margin-top: -10px;
+    }
+    .blue {
+      margin-top: -270px;
+      height: 16vh
+    }
+    .contactsdiv {
+      position: absolute;
+      left: -18%;
+    }
+    .row {
+      position: absolute;
+      top: 65%;
     }
 }
